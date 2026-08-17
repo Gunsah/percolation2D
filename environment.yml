@@ -1,0 +1,21 @@
+name: bfs-propagate
+channels:
+  - conda-forge
+dependencies:
+  # === Build toolchain ===
+  - python=3.12
+  - compilers
+  - cmake
+  - make
+
+  # === Build dependencies ===
+  - pybind11==3.1.0
+  - setuptools>=68
+  - wheel
+
+  # === Runtime dependencies ===
+  - numpy==2.2.5
+  - scipy==1.15.3
+  - tifffile==2025.2.18
+  - tqdm==4.67.1
+  - matplotlib==3.10.6
